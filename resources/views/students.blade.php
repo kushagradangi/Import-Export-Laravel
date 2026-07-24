@@ -20,6 +20,12 @@
 
     <button type="submit">Import</button>
 
+    <br><br>
+
+    <a href="{{ route('export') }}">
+    <button type="button">Export Excel</button>
+    </a>
+
 </form>
 
 </body>

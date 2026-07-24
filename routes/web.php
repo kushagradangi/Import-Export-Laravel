@@ -9,4 +9,5 @@ Route::get('/', function () {
 
 Route::get('/',[StudentController::class,'index']);
 Route::post('/import',[StudentController::class,'import'])->name('import');
+Route::get('/export',[StudentController::class,'export'])->name('export');
 
